@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AIEidtController.h
 //  AI6作业使用数据库
 //
 //  Created by qianfeng on 15/9/22.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface AIEidtController : UIViewController
 
-
+@property(nonatomic,strong)NSDictionary *messageDict;
 @end
-

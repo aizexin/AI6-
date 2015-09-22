@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  AITableViewController.h
 //  AI6作业使用数据库
 //
 //  Created by qianfeng on 15/9/22.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
-
+@interface AITableViewController : UITableViewController
+@property(nonatomic,strong)NSDictionary *dict;
 @end
-
